@@ -1,4 +1,4 @@
-﻿Copyright (c) 2014, 3Seventy, Inc.
+﻿Copyright (c) 2014, TrueDialog, Inc.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
