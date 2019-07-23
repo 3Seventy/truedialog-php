@@ -1,9 +1,9 @@
 <?php
 namespace TrueDialogApi;
 
-require_once 'three_seventy_api/api.php';
-require_once 'three_seventy_api/helpers.php';
-require_once 'three_seventy_api/model.php';
+require_once 'true_dialog_api/api.php';
+require_once 'true_dialog_api/helpers.php';
+require_once 'true_dialog_api/model.php';
 
 /* Global variable contains ID of current account. */
 $account_id = null;

@@ -15,7 +15,7 @@ class Request {
             if(!empty($TDconfig)){
                 $config = $TDconfig;
             } else {
-                $config = \getTDConfig();
+                $config = \getConfig();
             }
             $this->client = new \RestClient($config['url'], $config['username'], $config['password']);
         }

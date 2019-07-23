@@ -63,10 +63,10 @@ class ActionPushCampaign extends BaseAudited {
         $this->targets_url = isset($data['TargetsUrl']) ? $data['TargetsUrl'] : null;
         $this->contact_list_ids = isset($data['ContactListIds']) ? $data['ContactListIds'] : null;
 		$this->exclude_list_ids = isset($data['ExcludeListIds']) ? $data['ExcludeListIds'] : null;
-        $this->campaign_id = isset($data['CampaignId']) ? $data['CampaignId'] : null;
+        $this->campaign_id = isset($data['CampaignId']) ? $data['CampaignId'] : 0;
         $this->from = isset($data['From']) ? $data['From'] : null;
-        $this->ignore_single_use = isset($data['IgnoreSingleUse']) ? $data['IgnoreSingleUse'] : null;
-        $this->force_opt_in = isset($data['ForceOptIn']) ? $data['ForceOptIn'] : null;
+        $this->ignore_single_use = isset($data['IgnoreSingleUse']) ? $data['IgnoreSingleUse'] : false;
+        $this->force_opt_in = isset($data['ForceOptIn']) ? $data['ForceOptIn'] : false;
         $this->message = isset($data['Message']) ? $data['Message'] : null;
         $this->subject = isset($data['Subject']) ? $data['Subject'] : null;
         $this->execute = isset($data['Execute']) ? $data['Execute'] : true;
